@@ -1,0 +1,35 @@
+.news1 {
+    margin: 30px;
+}
+
+.list-news1 a {
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+    list-style-type: none;
+    border-top: 0.5px solid #999;
+    padding: 2px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.news1-title {
+    font-weight: bold;
+    background-color: #999;
+    padding: 7px;
+    padding-right: 0;
+}
+
+.card-news2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-news2 a {
+    text-decoration: none;
+    width: 18rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,26 @@
+version: '3'
+services:
+  laravel-docker1:
+    container_name: laravel-container1
+    build: .
+    volumes:
+      - ./htx:/var/www/html
+    ports:
+      - 80:80
+      - 5173:5173
+  mysql-docker1:
+    container_name: mysql-container1
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: htxmh
+    ports:
+      - 3306:3306
+  phpmyadmin-docker1:
+    container_name: phpmyadmin-container1
+    image: phpmyadmin:latest
+    ports:
+      - 8001:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql-docker

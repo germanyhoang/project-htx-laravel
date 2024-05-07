@@ -1,0 +1,96 @@
+/* login auth */
+.btn-login {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #aef2b2;
+    font-weight: bold;
+    border: 0px;
+
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+/* login */
+.btn__loginUser {
+    background-color: #ffffff;
+    border: none;
+}
+.card-login button:hover {
+    background-color: #13632e;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+.header--infoRight a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-social {
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    width: 70%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border: 0;
+    background-color: #25ad2b;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 5px 10px 0 rgba(44, 145, 54, 0.5);
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #25ad2b;
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-text {
+    display: block;
+    margin: 0 auto;
+    color: #000;
+}
+
+.social-or {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    margin: 25px auto;
+    position: relative;
+}
+
+.social-or span {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.social-or:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}

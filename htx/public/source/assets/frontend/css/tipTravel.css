@@ -1,0 +1,91 @@
+.tips-travel {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.caption-tips {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button-tips {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000079;
+    border: 0;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button-tips a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tip1 {
+    background-color: #76a385;
+    color: #ffffff;
+    padding: 20px;
+    width: 45rem;
+    margin-bottom: 25px;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tip2 {
+    background-color: #a0d793;
+    color: #000;
+    padding: 20px;
+    width: 45rem;
+    margin-bottom: 25px;
+    margin-left: 397px;
+    text-align: right;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tip3 {
+    background-color: #b7c28b;
+    color: #000;
+    padding: 20px;
+    width: 45rem;
+    margin-bottom: 25px;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tip4 {
+    background-color: #4b8342;
+    color: #ffffff;
+    padding: 20px;
+    width: 45rem;
+    margin-bottom: 25px;
+    margin-left: 397px;
+    text-align: right;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tip-content {
+    display: none;
+}

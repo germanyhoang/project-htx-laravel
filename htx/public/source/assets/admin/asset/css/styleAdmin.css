@@ -1,0 +1,8 @@
+/* news */
+.truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 50px; /* Đặt chiều rộng tối đa của văn bản trước khi nó bị cắt */
+    cursor: pointer; /* Biến con trỏ thành con trỏ chỉ vào khi văn bản được cắt */
+}

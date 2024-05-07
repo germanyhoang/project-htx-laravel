@@ -1,0 +1,22 @@
+.intro-body h5{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* MISSION  */
+.mission--card{
+    display: flex; 
+    justify-content: space-between;
+}
+.mission--item{
+    background-color:#FB5F5F ;
+    border-radius: 30px;
+    padding: 1.5rem;
+}
+
+.mission--item ul li{
+    margin-bottom: 5px;
+}
+.mission--item ul li i{
+    margin-right: 10px;
+}

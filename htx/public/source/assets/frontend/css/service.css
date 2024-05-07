@@ -1,0 +1,163 @@
+/* ----------------------- service------------------------------------------------ */
+
+.service {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.service .filter {
+    flex: 2;
+}
+
+.service .content-sv {
+    flex: 8;
+}
+
+.filter {
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 4px #959494;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-toggle {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 75%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-menu a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.service .btn {
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.service .btn:hover {
+    background-color: #25ad2b;
+}
+
+#datePicker {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+#datePicker:focus {
+    outline: none;
+    border-color: rgb(19, 16, 121);
+    box-shadow: 0 0 8px rgb(19, 16, 121);
+}
+
+/* --------------------------------serviceRoom------------------------------------------- */
+.room-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.room-title .name-room {
+    flex: 5;
+}
+
+.room-title .room-contact {
+    flex: 1;
+}
+
+.room-contact button {
+    background-color: #e65151;
+    border: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.room-content .room-reveiw {
+    flex: 6;
+}
+
+.room-content .room-comment {
+    flex: 4;
+}
+/* -------------------------------serviceRoom----------------------------------------- */
+.body {
+    margin: 20px 180px;
+}
+
+.main {
+    background-color: #f2f2f2cd;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    border-radius: 8px;
+    margin: 50px 0;
+}
+
+.left {
+    font-size: 17px;
+    padding-right: 30px;
+}
+
+.right {
+    font-size: 17px;
+}
+
+.mxh {
+    padding: 0px 20px 10px 0;
+    font-size: 30px;
+}
+
+.star {
+    color: #e2e240;
+}
+
+.button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+}
